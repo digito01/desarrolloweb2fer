@@ -9,3 +9,9 @@ function pitagoras(a, b) {
 }
 pitagoras(2,2);
 
+function pitagoras2(a, b) {
+    return Math.hypot(2, 2);
+ 
+ }
+ 
+ console.log(pitagoras2); 
