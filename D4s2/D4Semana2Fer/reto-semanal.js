@@ -37,7 +37,7 @@ for (let i = 0; i < intput.length; i++) {
     for (let x = 0; x < intput.length; x++) {
         const element = intput[x];
         if (objeto1.brand === element.brand) {
-            contador += 1
+            contador += 1;
         }
     }
     output.push({
@@ -51,6 +51,6 @@ output = output.filter(function (actual) {
     objetos[actual.brand] = true;
     return existe;
 });
-console.log(output)
+console.log(output);
 
 
