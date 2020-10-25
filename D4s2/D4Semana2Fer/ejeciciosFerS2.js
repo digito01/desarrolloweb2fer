@@ -17,6 +17,7 @@ function f(n) {
     textoNuevo = input.substring(0, n);
     return textoNuevo;
 }
+console.log("Ejercicio 1 ");
 console.log(f(10) + " ... Leer más");
 
 // 2. vocales
@@ -114,3 +115,4 @@ function ecuacionLineal(ecuacion) {
     console.log("paso 3: " + paso3);
 }
 
+// Fin de la tarea
