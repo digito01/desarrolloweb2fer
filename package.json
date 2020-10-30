@@ -1,15 +1,19 @@
 {
-  "name": "Rfab",
+  "name": "rfab",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build":"tsc",
+    "watch":"tsc --watch"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "lodash": "^4.17.20"
+  },
+  "devDependencies": {
+    "typescript": "^4.0.5"
   }
 }
